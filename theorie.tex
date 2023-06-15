@@ -1,3 +1,62 @@
 \section{Theorie}
 \label{sec:Theorie}
 
+In diesem Experiment wird Röntgenstrahlung untersucht. Diese entsteht, wenn beschleunigte Elektronen
+auf eine Anode auftreffen. In dieser werden die Elektronen durch das Coulombfeld des Atomkerns abgebremst und 
+senden ein Photon aus, dessen Energie dem Energieverlust des Elektrons entspricht. Dabei entsteht ein 
+kontinuierliches Bremsspektrum. Die minimale Wellenlänge bzw. maximale Energie entspricht 
+\begin{equation*}
+    \lambda_{\symup{min}} = \frac{\symup{ch}}{\symup{e_0}U} \; .
+\end{equation*}
+Bei dieser wird die ganze kinetische Energie in Strahlungsenergie $E = \symup{h}\nu$ umgewandelt.
+
+Das charakteristische Spektrum entsteht jedoch durch die Ionisierung des Anodenmaterials. Bei der Ionisierung 
+entsteht in einer inneren Schale eine Leerstelle, die mit einem Elektron der äußeren Schale wieder gefüllt wird.
+Bei em Schalenübergang wird ein Photon der Energie $E = E_{\symup{m}} - E_{\symup{n}}$ frei. Die Linien werden 
+mit $K_{\symup{\alpha}}$, $K_{\symup{\beta}}$, $L_{\symup{\alpha}}$ usw. benannt, wobei K, L, M usw. die 
+Schale bezeichnen, auf der die Übergänge enden. Der griechische Buchstabe gibt an, von welcher Schale 
+das Elektron kommt.
+
+In einem Mehrelektronenatom schrimen die Hüllenelektronen und die Wechselwirkung der Elektronen untereinander 
+die Kernladung ab, sodass sich die Coulombanziehung verringert und für die Bindungsenergie eines Elektrons 
+auf der n-ten Schale gilt 
+\begin{equation*}
+    E_{\symup{n}} = - R_{\inf}z_{\symup{eff}}^2 \cdot \frac{1}{\symup{n}^2} \;  ,
+\end{equation*}
+wobei $z_{\symup{eff}} = z - \sigma$ die effektive Kernladung, $\sigma$ die Abschirmkonstante und $R_{\inf} = 13.6 \, \unit{\eV}$
+die Rydbergenergie sind.
+
+Die äußeren Elektronen besitzen durch ihren Bahndrehimpuls und des Elektronenspins unterschiedliche Bindungsenergien.
+Das führt zu einer Feinstruktur von eng beieinander liegenden Linien.
+
+\subsection{Absorption von Röntgenstrahlung}
+Bei der Absorption von Röntgenstrahlung unter $1\,\text{MeV}$ dominieren der Comptoneffekt und der Photoeffekt.
+Bei zunehmender Energie nimmt der Absorptionskoeffizient ab, steigt aber sprunghaft an, wenn die Photonenenergie 
+gerade größer als die Bindungsenergie eines Elektrons der nächsten inneren Schale ist. 
+Die Absorptionskanten sind genau durch oben 
+genannte Sprünge charakterisiert. Ihre Energie $E = E_{\symup{n}} - E_{\inf}$ ist nahezu identisch mit der 
+Bindungsenergie , welche der Sommerfeldschen Feinstrukturformel folgt
+\begin{equation*}
+    E_{n, j}=-R_{\infty}\left(z_{e f f, 1}^2 \cdot \frac{1}{n^2}+\alpha^2 z_{e f f, 2}^4 \cdot \frac{1}{n^3}\left(\frac{1}{j+\frac{1}{2}}-\frac{3}{4 n}\right)\right) \; .
+\end{equation*}
+Dabei ist $\alpha$ die Sommerfeldsche Feinstrukturkonstante, n die Hauptquantenzahl und j der Gesamtdrehimpuls.
+Die Abschirmkonstante $\sigma_{\symup{K,abs}}$ der K-Kante berechnet sich durch 
+\begin{equation*}
+    \sigma_{\symup{K}} = Z - \sqrt{\frac{E_{\symup{K}}}{R_{\inf}}-\frac{\alpha^2Z^4}{4}}\; ,
+\end{equation*}
+wobei Z die Ordnungszahl ist.
+Bei er L-Kante ist die Bestimmung der Abschirmkonstante jedoch komplizierter, das die Abschirmzahlen jedes 
+beteiligten Elektrons berücksichtigt werden muss. Da die $L_{I}$- und $L_{II}$-Kante nicht aufgelöst werden 
+können, vereinfacht sich die Relation mit Hilfe der Energiedifferenzen $\Delta E_{\symup{L}}= E_{\symup{L}_{II}} - E_{\symup{L}_{III}}$ zu 
+\begin{equation*}
+    \sigma_L=Z-\left(\frac{4}{\alpha} \sqrt{\frac{\Delta E_L}{R_{\infty}}}-\frac{5 \Delta E_L}{R_{\infty}}\right)^{1 / 2}\left(1+\frac{19}{32} \alpha^2 \frac{\Delta E_L}{R_{\infty}}\right)^{1 / 2}
+\end{equation*}
+
+\subsection{Bragg'sche Reflexion}
+Experimentell kann die Wellenlänge der Röntgenstrahlung über die Bragg'sche Reflexion bestimmt werden.
+Dabei wird das Beugungsmuster von Röntgenstrahlung, welche auf ein dreidimensionales Gitter fällt untersucht. 
+Die Beugungsmaxima deuten dabei auf konstruktive Interferenz hin und folgen der Bragg'schen Bedingung
+\begin{equation*}
+    2d \sin \theta = \symup{n} \lambda \; .
+\end{equation*}
+Dabei ist $\theta$ der Glanzwinkel und n die Beugungsordnung.
